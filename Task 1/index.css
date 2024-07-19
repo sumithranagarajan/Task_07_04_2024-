@@ -1,0 +1,274 @@
+.head-section {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 450px;
+}
+
+.header-items {
+    width: 100%;
+
+}
+
+.items-flow {
+    display: flex;
+    list-style: none;
+    margin-left: 200px;
+
+}
+
+li {
+    margin: 8px;
+}
+
+.header-main {
+    margin-top: 150px;
+    margin-left: 500px;
+}
+
+.header-main-para {
+    margin-left: 20px;
+}
+
+.bio-section {
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.bio-content {
+    font-family: Georgia;
+    flex-grow: 1;
+    margin-right: 160px;
+    margin-left: 235px;
+    color:rgb(90, 89, 89);
+    font-size: 15px;
+
+}
+
+.bio-image {
+    flex-grow: 2;
+    padding-top: 50px;
+    margin-right: 250px;
+
+
+}
+
+.shrink-image {
+    width: 278px;
+}
+
+.btn {
+    height: 37px;
+    width: 120px;
+    border-radius: 3px;
+    border-color: white;
+}
+
+.button-section {
+    margin-top: 20px;
+    margin-right: 450px;
+    padding-top: 12px;
+    margin-left: 510px;
+    padding-bottom: 40px;
+}
+
+.learn-more-btn {
+    background-color: rgb(204, 203, 203);
+    color: black;
+   
+}
+
+.videos-btn {
+    background-color: red;
+    color: white;
+    
+}
+
+.books-btn {
+    background-color: orangered;
+    color: white;
+    
+}
+
+
+.black-section {
+    margin-bottom: 30px;
+    background-color: black;
+    color: white;
+    height: 80px;
+}
+
+.black-content {
+    font-family: Georgia;
+    padding-top: 25px;
+    margin-left: 430px;
+    padding-top: 30px;
+    color: white
+}
+
+.bio-heading {
+    font-family: Verdana;
+}
+
+.hr-lines {
+    position: relative;
+    max-width: 500px;
+    margin: 60px auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.hr-lines:before {
+    content: " ";
+    height: 2px;
+    width: 595px;
+    background: #c3c3c3;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 324px;
+}
+
+.hr-lines:after {
+    content: " ";
+    height: 2px;
+    width: 595px;
+    background: #c3c3c3;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 324px;
+}
+
+.awards-section {
+    margin-top: 35px;
+    width: 75%;
+    height: 167px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5px;
+    margin-left: 160px;
+
+}
+
+.award-component {
+
+    font-family: Georgia;
+    width: 350px;
+    margin: 8px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #c3c3c3;
+    font-size: 15px;
+    padding-left: 8px;
+  
+}
+.year{
+    font-family: 'Times New Roman', Times, serif;
+    color: #8d8a8a;
+}
+.hr-poet-lines {
+    position: relative;
+    max-width: 666px;
+    margin: 60px auto;
+    margin-bottom: 10px;
+}
+.hr-poet-lines:before {
+    content: " ";
+    height: 2px;
+    width: 125px;
+    background: #c3c3c3;
+    position: absolute;
+    top: 50%;
+    right: 85px;
+}
+.hr-poet-lines:after {
+    content: " ";
+    height: 2px;
+    width: 197px;
+    background: #c3c3c3;
+    position: absolute;
+    top: 50%;
+    left: 197px;
+}
+
+.hr-songs-lines{
+    position: relative;
+    max-width: 666px;
+    margin: 60px auto;
+    margin-bottom: 10px;
+}
+
+.hr-songs-lines:before {
+    content: " ";
+    height: 2px;
+    width: 139px;
+    background: #c3c3c3;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 365px;
+}
+
+.hr-songs-lines:after {
+    content: " ";
+    height: 2px;
+    width: 173px;
+    background: #c3c3c3;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 193px;
+}
+.hr-lines-combo{
+    display: flex;
+}
+.poem-content-class{
+margin-right:170px
+}
+.content-class{
+    margin-left:109px
+}
+.poet-and-song-container{
+    margin:15px;
+    width:100%;
+    display: flex;
+}
+.poet-list{
+    font-size: 12px;
+    margin-left: 140px;
+}
+.song-list{
+    font-size: 12px;
+    margin-right: 150px;
+}
+.footer-container{
+    display: flex;
+    width:100%;
+    height:150px;
+    background-color: rgb(27, 26, 26);
+    justify-content: center;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+}
+.footer-div{
+    color:white;
+    width:250px;
+    font-family: Georgia;
+    padding-top: 15px;
+}
+.p-font{
+    font-size:10px
+}
+.vl {
+    border-left: 1px solid rgb(87, 85, 85);
+    height: 90px;
+    margin-top:20px;
+    margin-right:12px;
+  }
+ 
+.head-font{
+    font-size: 10px;
+}
